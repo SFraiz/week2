@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add | Online Calculator</title>
+</head>
+<body>
+  <h1>Add</h1>
+
+	<p><label for="name">Your name:</label>
+	<input type="text" id="name" placeholder="Name"></p>
+
+	<p><label for="email">Your email:</label>
+	<input type="email" id="email" placeholder="email@gmail.com"></p>
+	<p><input type="checkbox" id="terms">
+	<label for="terms">You agree to our not evil terms of service</label></p>
+	
+	<form action="/calculate_add" method="POST">
+		<p><input type="number" name="first_number" placeholder="1st number"> +
+		<input type="number" name="second_number" placeholder="2nd number">
+		<button type="submit">Calculate</button></p>
+	</form>
+</body>
+</html>
